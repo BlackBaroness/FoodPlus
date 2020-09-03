@@ -63,7 +63,7 @@ public final class FoodPlus extends JavaPlugin {
 
     private void checkUpdates() {
         try {
-            URL updateUrl = new URL("https://devmc.ru/resources/foodplus.23/download");
+            URL updateUrl = new URL("https://github.com/SiriusWhite74/FoodPlus/blob/master/FoodPlus.jar?raw=true");
             URLConnection urlConnection = updateUrl.openConnection();
             urlConnection.connect();
             int actual = urlConnection.getContentLength();
