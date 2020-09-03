@@ -19,6 +19,7 @@ public final class FoodPlus extends JavaPlugin {
             saveDefaultConfig();
         }
 
+        checkUpdates();
         load();
     }
 
@@ -60,16 +61,16 @@ public final class FoodPlus extends JavaPlugin {
         System.out.println(ChatColor.LIGHT_PURPLE + "[FoodPlus] " + ChatColor.WHITE + s);
     }
 
-    private void checkUpdates(String url) {
+    private void checkUpdates() {
         try {
-            URL updateUrl = new URL(url);
+            URL updateUrl = new URL("https://devmc.ru/resources/foodplus.23/download");
             URLConnection urlConnection = updateUrl.openConnection();
             urlConnection.connect();
             int actual = urlConnection.getContentLength();
             int now = (int) getFile().length();
             if (actual != now) {
                 log(ChatColor.YELLOW + "New update available! I advise you to download it: ");
-                log(ChatColor.YELLOW + url);
+                log(ChatColor.YELLOW + "https://devmc.ru/resources/foodplus.23/download");
             }
         } catch (Exception ignored) {
         }
