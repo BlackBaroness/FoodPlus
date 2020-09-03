@@ -1,0 +1,5 @@
+name: FoodPlus
+version: ${project.version}
+main: ru.sapphirelife.FoodPlus
+authors: [ Black_Baroness ]
+website: https://vk.com/baroness_plugins
