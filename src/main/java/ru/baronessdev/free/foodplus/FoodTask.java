@@ -1,4 +1,4 @@
-package ru.sapphirelife;
+package ru.baronessdev.free.foodplus;
 
 import lombok.Value;
 import org.bukkit.Material;

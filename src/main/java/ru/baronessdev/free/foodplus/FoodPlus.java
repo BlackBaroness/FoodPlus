@@ -1,4 +1,4 @@
-package ru.sapphirelife;
+package ru.baronessdev.free.foodplus;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
