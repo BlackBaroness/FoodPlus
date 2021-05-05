@@ -5,6 +5,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
+import ru.baronessdev.free.foodplus.metrics.Metrics;
 
 import java.util.List;
 
@@ -13,6 +14,7 @@ public final class FoodPlus extends JavaPlugin {
     @Override
     public void onEnable() {
         saveDefaultConfig();
+        new Metrics(this, 11263);
         load();
     }
 
