@@ -2,4 +2,4 @@ name: FoodPlus
 version: ${project.version}
 main: ru.baronessdev.free.foodplus.FoodPlus
 authors: [Black_Baroness]
-website: baronessdev.ru
+website: ${project.url}
