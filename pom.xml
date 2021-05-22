@@ -43,7 +43,7 @@
                             <relocations>
                                 <relocation>
                                     <pattern>org.bstats</pattern>
-                                    <shadedPattern>ru.baronessdev.free.editor</shadedPattern>
+                                    <shadedPattern>ru.baronessdev.free.foodplus</shadedPattern>
                                 </relocation>
                             </relocations>
                         </configuration>
