@@ -6,7 +6,7 @@
 
     <groupId>ru.baronessdev.free</groupId>
     <artifactId>foodplus</artifactId>
-    <version>11</version>
+    <version>12</version>
     <packaging>jar</packaging>
 
     <name>FoodPlus</name>

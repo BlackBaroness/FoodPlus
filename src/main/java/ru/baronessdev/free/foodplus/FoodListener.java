@@ -43,6 +43,6 @@ public class FoodListener implements Listener {
     }
 
     private String replace(String s, Player p) {
-        return s.replace("{PLAYER}", p.getName()).replace("NARRATE ", "");
+        return s.replace("{PLAYER}", p.getName());
     }
 }
