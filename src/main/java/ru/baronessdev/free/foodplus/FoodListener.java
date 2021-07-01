@@ -18,7 +18,8 @@ public class FoodListener implements Listener {
 
     @EventHandler
     private void onEat(PlayerItemConsumeEvent e) {
-        if (!e.getItem().getType().equals(task.getMaterial()) && !isLucky()) return;
+        if (!e.getItem().getType().equals(task.getMaterial())) return;
+        if (!isLucky()) return;
 
         Player p = e.getPlayer();
         task.getExecute().forEach(s -> {
