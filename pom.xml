@@ -6,7 +6,7 @@
 
     <groupId>ru.baronessdev.free</groupId>
     <artifactId>foodplus</artifactId>
-    <version>12</version>
+    <version>13</version>
     <packaging>jar</packaging>
 
     <name>FoodPlus</name>
@@ -68,9 +68,14 @@
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
     </repositories>
 
     <dependencies>
+        <!--suppress MavenVersionUpdateInspection -->
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
@@ -90,9 +95,9 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpclient</artifactId>
-            <version>4.5.13</version>
+            <groupId>com.github.Baroness-s-Dev</groupId>
+            <artifactId>common-lib</artifactId>
+            <version>2</version>
         </dependency>
     </dependencies>
 </project>
